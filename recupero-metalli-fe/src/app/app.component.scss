@@ -1,0 +1,122 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center; /* Centra i pulsanti della navbar orizzontalmente */
+}
+  
+.navbar-button {
+    cursor: pointer;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  
+    &:hover {
+      color: #007bff;
+    }
+}
+
+/* Centra il testo nelle sezioni */
+section {
+    text-align: center; /* Centra il testo orizzontalmente */
+    padding: 20px;
+}
+  
+#home, #listino, #contatti {
+    scroll-margin-top: 10px; /* Altezza della navbar */
+    padding-top: 20px;
+}
+
+
+.price-list {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+  
+    th {
+      background-color: #f4f4f4;
+      font-weight: bold;
+    }
+  
+    tbody tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+  
+    tbody tr:hover {
+      background-color: #e6f7ff;
+    }
+}
+  
+.contact-info {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 20px;
+  
+    p {
+      margin: 10px 0;
+    }
+  
+    a {
+      color: #007bff;
+      text-decoration: none;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  
+    ul {
+      list-style-type: none;
+      padding: 0;
+  
+      li {
+        margin: 5px 0;
+      }
+    }
+}
+  
+.map-container {
+    margin-top: 20px;
+  
+    h2 {
+      margin-bottom: 10px;
+    }
+  
+    iframe {
+      border: 0;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex; /* Usa Flexbox */
+  justify-content: center; /* Centra orizzontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 100vh; /* Imposta l'altezza della pagina a 100% della finestra */
+  background-color: #f4f4f4;
+}
+
+.main-content {
+  width: 80%; /* O qualsiasi percentuale che preferisci */
+  max-width: 1200px; /* Imposta una larghezza massima per evitare che il contenuto si estenda troppo */
+  background-color: #fff; /* Colore di sfondo per il contenuto */
+  padding: 20px; /* Padding per aggiungere spazio all'interno */
+  border-radius: 8px; /* Angoli arrotondati */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra per separare il contenuto */
+}
+
+  
